@@ -1,0 +1,17 @@
+.logo {
+  color: $black;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-decoration: none;
+
+  @media (max-width: $with_md) {
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: $with_sm) {
+  }
+}
+
+.logo__prefix {
+  color: $pink;
+}

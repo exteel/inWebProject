@@ -1,0 +1,45 @@
+.intro__text {
+  font-size: 1.2rem;
+  color: $gray_dark;
+
+  @media (max-width: $with_md) {
+    font-size: 1rem;
+  }
+}
+
+.intro__title {
+  margin-bottom: 0.5rem;
+
+  font-size: 3.2rem;
+  line-height: 1.2;
+  color: $black;
+  font-weight: 600;
+
+  @media (max-width: $with_lg) {
+    font-size: 2.7rem;
+  }
+
+  @media (max-width: $with_md) {
+    font-size: 2rem;
+  }
+}
+
+.intro__subtitle {
+  margin-bottom: 2rem;
+
+  font-size: 1.6rem;
+  color: $black;
+  font-weight: 400;
+
+  @media (max-width: $with_lg) {
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: $with_md) {
+    font-size: 1rem;
+  }
+}
+
+.intro__subtitle-pink {
+  color: $pink;
+}
